@@ -1,10 +1,11 @@
-- 👋 Hi, I’m @Nantwem
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-Nantwem/Nantwem is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<form class="pure-form">
+    <fieldset>
+        <legend>A compact inline form</legend>
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
+        <label for="default-remember">
+            <input type="checkbox" id="default-remember" /> Remember me
+        </label>
+        <button type="submit" class="pure-button pure-button-primary">Sign in</button>
+    </fieldset>
+</form>
